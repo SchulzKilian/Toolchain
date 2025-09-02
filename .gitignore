@@ -1,0 +1,63 @@
+--- System Files ---
+Mac and Windows system files
+
+.DS_Store
+Thumbs.db
+--- Python ---
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+C extensions
+
+*.so
+Distribution / Packaging
+
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+Virtual Environments
+
+.env
+.venv
+env/
+venv/
+toolchain_env/
+--- Credentials ---
+Local environment variables and secrets
+
+.env.*
+!.env.example
+PyPI credentials file
+
+.pypirc
+--- IDEs and Editors ---
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+--- Testing ---
+
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+--- Jupyter Notebook ---
+
+.ipynb_checkpoints
+--- Logs ---
+
+*.log
